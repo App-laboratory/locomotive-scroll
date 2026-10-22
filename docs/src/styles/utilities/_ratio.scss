@@ -33,7 +33,7 @@ $aspect-ratios: (
             @error "`#{$consequent}` needs to be a number."
         }
 
-        &.u-#{$antecedent}\:#{$consequent}::before {
+        .u-#{$antecedent}\:#{$consequent}::before {
             padding-bottom: ($consequent/$antecedent) * 100%;
         }
     }
